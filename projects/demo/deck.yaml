@@ -1,0 +1,27 @@
+title: "Codex PPT Workflow"
+subtitle: "Demo deck generated from YAML"
+slides:
+  - title: "Project Overview"
+    goal: "Explain the purpose and scope of the workflow"
+    bullets:
+      - "Convert structured YAML into slide-ready artifacts"
+      - "Standardize deck creation across teams"
+      - "Keep content reviewable in Markdown"
+  - title: "Audience & Outcomes"
+    goal: "Clarify who the deck serves and what they should learn"
+    bullets:
+      - "Audience: product, engineering, and leadership"
+      - "Outcome: agree on goals and next steps"
+      - "Deliverable: validated slide outline"
+  - title: "Workflow Stages"
+    goal: "Outline the steps from content to slides"
+    bullets:
+      - "Draft YAML outline"
+      - "Generate review artifacts (JSON/Markdown)"
+      - "Export to PPTX in a follow-up step"
+  - title: "Next Actions"
+    goal: "Define immediate follow-ups"
+    bullets:
+      - "Customize the deck schema for your team"
+      - "Add assets and speaker notes"
+      - "Integrate with PPT export tooling"

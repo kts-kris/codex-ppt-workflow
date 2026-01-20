@@ -1,0 +1,19 @@
+[build-system]
+requires = ["setuptools>=67", "wheel"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "codex-ppt-workflow"
+version = "0.1.0"
+description = "Draft slide decks from structured YAML."
+readme = "README.md"
+requires-python = ">=3.10"
+authors = [{ name = "Codex Team" }]
+license = { text = "MIT" }
+dependencies = ["PyYAML>=6.0"]
+
+[project.scripts]
+ppt-workflow = "ppt_workflow.cli:main"
+
+[tool.setuptools.packages.find]
+where = ["src"]
